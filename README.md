@@ -1,4 +1,6 @@
->hein▋ : UMA IDE MUITO BRASILEIRA!!!
+>>hein▋
+UMA IDE MUITO BRASILEIRA!!!
+
 IDE de código Python desenvolvida com PySide6 — produtividade, integração GitHub e experiência fluida.
 
 ⬇️ Download
