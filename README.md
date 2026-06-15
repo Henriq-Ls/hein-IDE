@@ -1,10 +1,10 @@
->>hein▋
+>hein▋
 UMA IDE MUITO BRASILEIRA!!!
 
 IDE de código Python desenvolvida com PySide6 — produtividade, integração GitHub e experiência fluida.
 
 ⬇️ Download
-👉 Clique aqui para baixar a versão mais recente
+👉 Clique aqui para baixar a versão mais recente :https://github.com/Henriq-Ls/hein-IDE/releases/tag
 
 Baixe o arquivo hein-IDE.exe — não precisa instalar nada. Só abrir e usar.
 
