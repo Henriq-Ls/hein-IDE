@@ -1,90 +1,321 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PySide6-Qt-green?style=for-the-badge&logo=qt&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Plataforma-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange?style=for-the-badge"/>
+  <img src="banner-hein-ide.png" width="100%">
+</p>
+
+<p align="center">
+  <img src="logo-hein-ide.png" width="220">
 </p>
 
 <h1 align="center">hein IDE</h1>
-<p align="center"><b>UMA IDE MUITO BRASILEIRA!!!</b><br>
-Uma IDE desktop feita do zero em Python com PySide6, completamente em português, focada em produtividade, integração GitHub e uma experiência fluida para todos os desenvolvedores.</p>
+
+<p align="center">
+<b>IDE Brasileira para Python, GitHub e Inteligência Artificial</b>
+</p>
+
+<p align="center">
+A IDE que entende o seu projeto.
+</p>
+
+<p align="center">
+Desenvolvida no Brasil, em português, para programadores brasileiros.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-2E8B57?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/PySide6-Qt-009739?style=for-the-badge&logo=qt&logoColor=white">
+  <img src="https://img.shields.io/badge/Windows-10%2B-FFDF00?style=for-the-badge&logo=windows&logoColor=black">
+  <img src="https://img.shields.io/badge/Brasil-Desenvolvida%20no%20Brasil-002776?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Beta-orange?style=for-the-badge">
+</p>
+
+<p align="center">
+<a href="https://github.com/Henriq-Ls/hein-IDE/releases">Download</a> •
+<a href="https://github.com/Henriq-Ls/hein-IDE/issues">Issues</a> •
+<a href="https://www.youtube.com/@henriqls">YouTube</a>
+</p>
 
 ---
 
-## [ Downloads ]
+<p align="center">
+<img src="hein-ide-home.png" width="100%">
+</p>
 
-■ [**Clique aqui para baixar a versão mais recente em Releases**](https://github.com/Henriq-Ls/hein-IDE/releases/tag)
+# O que é a hein IDE?
 
-> [!TIP]
-> Baixe o arquivo **`hein-IDE.exe`** — ele é 100% portátil. Não precisa instalar absolutamente nada, basta abrir e programar!
+A hein IDE é uma IDE desktop desenvolvida do zero em Python e PySide6.
 
----
+Ela foi criada para ir além da edição de código tradicional.
 
-## [ Aviso do Windows (SmartScreen) — Leia antes de abrir ]
+Enquanto a maioria das IDEs trabalha apenas com arquivos e abas abertas, a hein IDE combina indexação AST, memória persistente, inteligência artificial contextual, documentação automática, integração GitHub e uma base de conhecimento capaz de acompanhar a evolução do projeto ao longo do tempo.
 
-Por ser um software open-source novo e sem uma assinatura digital paga, o Windows Defender e alguns navegadores podem exibir alertas de segurança por precaução. Isso é normal e esperado. Siga os passos abaixo para executar:
+O objetivo é simples:
 
-### ⚡ Passo 1 — No Navegador (Download)
-O navegador pode tentar bloquear o arquivo com a mensagem: *"hein-IDE.exe normalmente não é baixado"*.
-* **Como resolver:** Clique nos três pontinhos (`...`) ao lado do aviso → Selecione **"Manter"** ou **"Manter assim mesmo"**.
-
-### ⚡ Passo 2 — Ao Abrir (Windows SmartScreen)
-Ao tentar abrir o `.exe`, o Windows pode exibir uma tela azul dizendo: *"O Windows protegeu o computador — O Microsoft Defender SmartScreen impediu que um aplicativo não reconhecido fosse iniciado."*
-* **Como resolver:** Clique no link **"Mais informações"** logo abaixo do texto → Depois clique no botão **"Executar assim mesmo"**.
+Criar uma IDE que entenda o projeto inteiro, e não apenas os arquivos que estão abertos na tela.
 
 ---
 
-## [ Requisitos do Sistema ]
+# Por que a hein IDE existe?
 
-* **Sistema Operacional:** Windows 10 ou superior.
-* **Dependências:** Nenhuma! O executável já traz tudo o que precisa embutido.
+A maior parte das IDEs modernas foi criada pensando primeiro no mercado internacional.
 
----
+A hein IDE nasceu com uma proposta diferente.
 
-## [ Funcionalidades Principais ]
+Ser uma IDE moderna, poderosa e acessível para desenvolvedores brasileiros.
 
-* **Editor de Código Python:** Completo com realce de sintaxe dinâmico, múltiplos cursores (Alt + Clique), e sistema inteligente de dobramento de blocos (*folding*).
-* **Abas estilo Navegador:** Gerencie e navegue por múltiplos arquivos abertos simultaneamente de forma rápida.
-* **Autocomplete Inteligente (Jedi):** Sistema de completude de código que enxerga em tempo real as funções e pacotes do seu próprio projeto.
-* **Terminais Integrados:** 
-  * Terminal PowerShell completo com suporte a múltiplas abas.
-  * Terminal de Execução dedicado para rodar seu código com `F5` isolado na `.venv` do seu projeto.
-* **Painel Git Completo:** Gerencie seu repositório sem linha de comando! Suporte para `commit`, `push`, `pull`, gerenciamento de `branches`, `stash`, visualização de `diff` e histórico de alterações.
-* **Integração GitHub Nativa:** Login prático usando *Device Flow* (via navegador), permitindo clonar e publicar repositórios diretamente pela IDE.
-* **Outline em Tempo Real:** Árvore estrutural de classes, métodos e funções atualizada dinamicamente ao lado do código.
-* **Busca Global Avançada:** Busque termos no projeto inteiro com suporte a Regex e diferenciação de maiúsculas/minúsculas (*case-sensitive*).
-* **Navegação Inteligente:** Recurso de "Ir para Definição" (`F12` ou `Ctrl + Click`) e busca de referências indexadas via banco SQLite rápido.
-* **Auto-Save Inteligente:** Sistema que salva automaticamente suas alterações após 3 segundos sem digitação para você nunca perder código.
-* **File Watcher Ativo:** Monitoramento em segundo plano que avisa ou recarrega a aba caso o arquivo tenha sido modificado fora da IDE.
-* **Assistente de IA Integrado:** Painel lateral com inteligência artificial para tirar dúvidas e ajudar a debugar o seu código na hora.
-* **Temas Visuais Dinâmicos:** Suporte a troca de temas com *hot-reload* (muda as cores da interface instantaneamente sem precisar reiniciar o app).
+Não apenas traduzida para português.
+
+Pensada em português.
+
+Desde a interface até a integração com IA, documentação automática, GitHub e fluxo de desenvolvimento.
+
+A ideia é aproximar a ferramenta da forma como programadores brasileiros realmente trabalham.
 
 ---
 
-## [ Atalhos de Teclado Principais ]
+# Principais Diferenciais
 
-| Ação | Atalho |
-| :--- | :--- |
-| **Executar código** | `F5` |
-| **Ir para definição** | `F12` ou `Ctrl + Click` |
-| **Buscar no arquivo** | `Ctrl + F` |
-| **Buscar no projeto** | `Ctrl + Shift + F` |
-| **Comentar / Descomentar linha** | `Ctrl + /` |
-| **Criar novo projeto** | `Ctrl + Shift + N` |
-| **Abrir projeto existente** | `Ctrl + Shift + O` |
+## IA Contextual Integrada
+
+<p align="center">
+<img src="hein-ide-ai-panel.png" width="100%">
+</p>
+
+A IA da hein IDE entende o projeto aberto.
+
+Recursos:
+
+- Leitura automática do projeto
+- Indexação AST
+- Memória persistente por projeto
+- Injeção automática do arquivo aberto
+- Leitura automática de arquivos mencionados
+- Streaming em tempo real
+- Fallback automático entre modelos
+- OpenAI
+- OpenRouter
+- Ollama
+- Modelos locais
+- Exportação de histórico
+- Entrada de voz integrada
+- Análise crítica automática via hein?
+- Detecção de perda de contexto
+- Geração automática de correções
 
 ---
 
-## [ Atualizações Automáticas ]
+## HEIN-PATCH
 
-A **hein IDE** cuida de si mesma! O sistema verifica periodicamente em segundo plano se existem novas atualizações disponíveis no GitHub. Quando uma nova versão é encontrada, um indicador visual discreto aparece na barra de título do aplicativo — basta um clique nele para baixar a atualização.
+A IA pode sugerir alterações diretamente no código aberto.
+
+Antes de qualquer modificação:
+
+- Diff visual completo
+- Confirmação do usuário
+- Backup automático
+- Compatível com Ctrl+Z
+- Nenhuma gravação automática em disco
+
+A decisão final continua sempre com o desenvolvedor.
 
 ---
 
-## [ Contato e Feedbacks ]
+## Núcleo de Conhecimento
 
-Encontrou algum comportamento estranho, um bug ou tem uma ideia de ouro para melhorar a IDE? 
-Fique à vontade para abrir uma [**Issue no GitHub**](https://github.com/Henriq-Ls/hein-IDE/issues). Toda sugestão ajuda a tornar a nossa IDE ainda mais forte!
+A hein IDE possui uma camada própria chamada Núcleo.
+
+O Núcleo acompanha a evolução do projeto e mantém uma base de conhecimento persistente.
+
+Ele registra:
+
+- Arquitetura
+- Histórico técnico
+- Dependências
+- Estrutura do projeto
+- Decisões importantes
+- Alertas estruturais
+- Estado atual do software
+
+Esse conhecimento pode ser reutilizado pela IA para fornecer respostas cada vez mais contextualizadas.
 
 ---
-<p align="center">Desenvolvido por <a href="https://github.com/Henriq-Ls">HenriqLs</a></p>
+
+## Documentação Automática
+
+A IDE pode gerar automaticamente:
+
+- README.md
+- DOCUMENTACAO.md
+- ARQUITETURA.md
+- Estrutura_projeto.txt
+
+Mantendo documentação e código alinhados.
+
+---
+
+## Busca Unificada
+
+| Prefixo | Função |
+|----------|----------|
+| texto | Buscar arquivos |
+| @texto | Buscar conteúdo |
+| :123 | Ir para linha |
+| >comando | Command Palette |
+| #todo | Anotações |
+| #fixme | Anotações |
+| #lembrar | Anotações |
+
+Tudo centralizado em uma única barra de busca.
+
+---
+
+# Ambiente de Desenvolvimento
+
+<p align="center">
+<img src="hein-ide-workspace.png" width="100%">
+</p>
+
+Recursos disponíveis:
+
+- Editor avançado para Python
+- Múltiplas abas
+- Outline estrutural
+- Navegação por definição
+- Referências indexadas
+- Autocomplete inteligente
+- Auto Save
+- Terminal integrado
+- Execução isolada em .venv
+- Monitoramento de arquivos
+- Painel Git integrado
+- Integração GitHub
+- Sistema de temas
+- IA contextual
+
+---
+
+# Git e GitHub
+
+A integração Git foi desenvolvida diretamente dentro da IDE.
+
+Recursos:
+
+- Clone
+- Commit
+- Push
+- Pull
+- Branches
+- Stash
+- Histórico
+- Diff visual
+- Login GitHub integrado
+- Publicação de projetos
+
+Sem depender constantemente do terminal.
+
+---
+
+# Sistema de Temas
+
+<p align="center">
+<img src="hein-ide-themes.png" width="100%">
+</p>
+
+Sistema completo de temas com atualização dinâmica.
+
+- Hot Reload
+- Cores centralizadas
+- Ícones integrados ao tema
+- Atualização instantânea sem reiniciar
+
+---
+
+# Arquitetura
+
+Tecnologias utilizadas:
+
+- Python
+- PySide6
+- SQLite
+- AST nativo do Python
+- Git
+- GitHub API
+- OpenAI API
+- OpenRouter
+- Ollama
+- LangGraph
+- FAISS
+
+---
+
+# Roadmap
+
+Próximos objetivos da plataforma:
+
+- Integração completa do sistema de memória LangGraph
+- Busca semântica por vetores
+- Melhorias no sistema de documentação automática
+- Evolução do Núcleo de Conhecimento
+- Mais recursos de IA contextual
+- Novos temas visuais
+- Expansão da integração GitHub
+- Suporte futuro para múltiplas linguagens
+
+---
+
+# Download
+
+## Última versão
+
+https://github.com/Henriq-Ls/hein-IDE/releases
+
+Baixe o executável mais recente.
+
+Não é necessário instalar Python ou dependências adicionais.
+
+---
+
+# Requisitos
+
+- Windows 10 ou superior
+- Sistema 64 bits
+- Internet para recursos online
+- Nenhuma instalação adicional necessária
+
+---
+
+# Comunidade
+
+Sugestões, ideias, bugs e melhorias são sempre bem-vindos.
+
+Issues:
+
+https://github.com/Henriq-Ls/hein-IDE/issues
+
+---
+
+# Contato
+
+GitHub
+
+https://github.com/Henriq-Ls
+
+YouTube
+
+https://www.youtube.com/@henriqls
+
+WhatsApp
+
++55 62 98134-4007
+
+---
+
+# Autor
+
+HenriqLs
+
+---
+
+<p align="center">
+<b>hein IDE</b><br>
+Uma IDE brasileira criada para programadores brasileiros.
+</p>
