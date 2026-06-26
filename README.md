@@ -5,7 +5,7 @@
     </td>
     <td valign="middle" style="padding-left: 25px;">
       <p style="margin-bottom: 15px;">
-        <font size="7"><b> > hein IDE █ </b></font>
+        <font size="7"><b> > hein █ IDE Brasileira para Python, GitHub e Inteligência Artificial </b></font>
       </p>
       <p style="margin-top: 0;">
         <img src="https://img.shields.io/badge/Python-3.10%2B-2E8B57?style=for-the-badge&logo=python&logoColor=white">
@@ -18,9 +18,6 @@
   </tr>
 </table>
 
-<p align="center">
-<b>IDE Brasileira para Python, GitHub e Inteligência Artificial</b>
-</p>
 
 <p align="center">
 A IDE que entende o seu projeto.
