@@ -1,12 +1,22 @@
-<p align="center">
-  <img src="banner-hein-ide.png" width="100%">
-</p>
-
-<p align="center">
-  <img src="logo-hein-ide.png" width="220">
-</p>
-
-<h1 align="center">hein IDE</h1>
+<table border="0">
+  <tr>
+    <td valign="middle">
+      <img src="logo-hein-ide.png" width="220" alt="hein IDE Logo">
+    </td>
+    <td valign="middle" style="padding-left: 25px;">
+      <p style="margin-bottom: 15px;">
+        <font size="7"><b> > hein IDE █ </b></font>
+      </p>
+      <p style="margin-top: 0;">
+        <img src="https://img.shields.io/badge/Python-3.10%2B-2E8B57?style=for-the-badge&logo=python&logoColor=white">
+        <img src="https://img.shields.io/badge/PySide6-Qt-009739?style=for-the-badge&logo=qt&logoColor=white">
+        <img src="https://img.shields.io/badge/Windows-10%2B-FFDF00?style=for-the-badge&logo=windows&logoColor=black">
+        <img src="https://img.shields.io/badge/Brasil-Desenvolvida%20no%20Brasil-002776?style=for-the-badge">
+        <img src="https://img.shields.io/badge/Status-Beta-orange?style=for-the-badge">
+      </p>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
 <b>IDE Brasileira para Python, GitHub e Inteligência Artificial</b>
@@ -20,13 +30,7 @@ A IDE que entende o seu projeto.
 Desenvolvida no Brasil, em português, para programadores brasileiros.
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-2E8B57?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/PySide6-Qt-009739?style=for-the-badge&logo=qt&logoColor=white">
-  <img src="https://img.shields.io/badge/Windows-10%2B-FFDF00?style=for-the-badge&logo=windows&logoColor=black">
-  <img src="https://img.shields.io/badge/Brasil-Desenvolvida%20no%20Brasil-002776?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Beta-orange?style=for-the-badge">
-</p>
+
 
 <p align="center">
 <a href="https://github.com/Henriq-Ls/hein-IDE/releases">Download</a> •
@@ -293,29 +297,34 @@ https://github.com/Henriq-Ls/hein-IDE/issues
 
 ---
 
-# Contato
+# 📱 Contato
 
-GitHub
-
-https://github.com/Henriq-Ls
-
-YouTube
-
-https://www.youtube.com/@henriqls
-
-WhatsApp
-
-+55 62 98134-4007
+<p align="left">
+  <a href="https://github.com/Henriq-Ls" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://www.youtube.com/@henriqls" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
+  </a>
+  <a href="https://wa.me/5562981344007" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+  </a>
+</p>
 
 ---
 
-# Autor
+# 👤 Autor
 
-HenriqLs
+<p align="left">
+  Feito com ☕ e código por <b>HenriqLs</b>.
+</p>
 
 ---
 
 <p align="center">
-<b>hein IDE</b><br>
-Uma IDE brasileira criada para programadores brasileiros.
+  <br>
+  <font size="5"><b>█ hein IDE</b></font><br>
+  <sub>Uma IDE brasileira criada para programadores brasileiros.</sub>
+  <br><br>
+  <img src="https://img.shields.io/badge/Made%20with%20%E2%9D%A4%20in-Brasil-002776?style=flat-square" alt="Made in Brazil">
 </p>
