@@ -310,11 +310,7 @@ https://github.com/Henriq-Ls/hein-IDE/issues
 
 ---
 
-# 👤 Autor
-
-<p align="left">
-  Feito com ☕ e código por <b>HenriqLs</b>.
-</p>
+# 👤 Autor: <b>HenriqLs</b>
 
 ---
 
